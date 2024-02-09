@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    /* Add CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7; /* Faint grey color */
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    #main-content {
+      padding: 20px;
+    }
+    .photos-container {
+      display: flex;
+      flex-wrap: wrap; /* Allow photos to wrap to the next line */
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .photo {
+      flex: 0 0 30%; /* Each photo takes 30% of the container's width */
+      margin-bottom: 20px; /* Add some space between rows */
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #444;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .contact-info {
+      background-color: bisque;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+    .contact-info p:last-child {
+      margin-bottom: 0;
+    }
+    .interests-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .interest {
+      flex: 0 0 30%; /* Each interest takes 30% of the container's width */
+      background-color:bisque;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .interest h3 {
+      margin-top: 0;
+    }
+    .album-cover {
+      max-width: 100%;
+      height: auto;
+    }
+    .sports-photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .sports-photo {
+      flex: 0 0 30%; /* Each sports photo takes 30% of the container's width */
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .socialscontainer{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+    }
+    .socials{
+     
+      
+      margin-bottom: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      max-width: 2cm;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+  </header>
+  <div id="main-content">
+    <h2>Introduction</h2>
+    <p>Hello, I'm Prithak. Welcome to my personal webpage!</p>
+    
+    <h2>Photos</h2>
+    <div class="photos-container">
+      <div class="photo">
+        <img src="photo1.jpg" alt="Photo 1">
+      </div>
+      <div class="photo">
+        <img src="photo2.jpg" alt="Photo 2">
+      </div>
+      <div class="photo">
+        <img src="photo3.jpg" alt="Photo 3">
+      </div>
+      <div class="photo">
+        <img src="photo4.jpg" alt="Photo 4">
+      </div>
+      <div class="photo">
+        <img src="photo6.jpg" alt="Photo 5">
+      </div>
+      <div class="photo">
+        <img src="photo5.jpg" alt="Photo 6">
+      </div>
+    </div>
+    
+    <h2>My Interests</h2>
+    <div class="interests-container">
+      <div class="interest">
+        <h3>Music</h3>
+        <p> I am a musician(wannabe) who weaves words into melodies, creating a symphony that speaks to the
+           depths of human(my) emotion (narsicism hell yeah). Join me on this journey as we explore the
+            beauty of wandering and wondering together.
+
+        </p>
+        <h5>Muse(an orignal song)</h5>
+    <video controls>
+      <source src="muse.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p>
+      This is the first single of my upcomming EP "BYE BYE" which is releasing on may 22.
+    </p>
+      </div>
+      <div class="interest">
+        <h3>Sports</h3>
+        <p>These are the sports that i am intrested in </p>
+        <div class="sports-photos">
+          <div class="sports-photo">
+            <img src="soccer.jpg" alt="Soccer">
+            <p>Soccer</p>
+          </div>
+          <div class="sports-photo">
+            <img src="chess.jpg" alt="Chess">
+            <p>Chess</p>
+          </div>
+          <div class="sports-photo">
+            <img src="volleyball.jpg" alt="Volleyball">
+            <p>Volleyball</p>
+          </div>
+          <div class="sports-photo">
+            <img src="cricket.jpg" alt="Cricket">
+            <p>Cricket</p>
+          </div>
+          <div class="sports-photo">
+            <img src="basketball.jpg" alt="Basketball">
+            <p>Basketball</p>
+          </div>
+          <div class="sports-photo">
+            <img src="tabletennis.jpg" alt="Table Tennis">
+            <p>Table Tennis</p>
+          </div>
+          <p>I've always been a social butterfly, surrounded by friends and sports since I was young. 
+            After all these years of just playing for fun, these sports have been a part of
+             my personality. These sports help me cheer up whenevr i'm down. Additionally, I have made a lot of friends 
+             who are now a part of my close circle just because of shared intrests.
+          </p>
+        </div>
+      </div>
+      <div class="interest">
+        <h3>Poems</h3>
+        <p>poems will be shortly available</p>
+      </div>
+    </div>
+    
+
+    
+    <h2>About Me</h2>
+    <p>I am an enthusiastic individual who thrives on exploring new experiences and opportunities. 
+      I have a natural curiosity that drives me to be open to a wide range of activities and challenges. 
+      Trying out new things in various areas of life gives me a sense of excitement and fulfillment.
+      Basically, I am an ambitious guy carrying his baggage of dreams while cherishing his life along the way.
+    
+    </p>
+    
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+      <p>Email: officilprithak@gmail.com</p>
+      <p>Phone: +977 9869836924</p>
+    </div>
+    <h2>FIND ME ON</h2>
+  <div class="socialscontainer">
+    <div class="socials" >
+      <a href="https://www.instagram.com/pprithakk/?next=%2F">
+      <img src="instagram.jpg" >
+      <p>Instagram</p>
+    </a>  
+    </div>
+    <div class="socials" >
+      <a href="https://www.linkedin.com/in/prithak-koirala-2253802b1/?originalSubdomain=np">
+      <img src="linkedin.png" >
+      <p> .  linkedin
+      </p> 
+    </a>
+      </div> 
+      <div class="socials" >
+        <a href="https://open.spotify.com/user/31zpi3t7gu7p7fwoyfqj6kvnqg5e">
+        <img src="spotify.png">
+        <p>.    spotify
+        </p> 
+      </a>
+        </div> 
+    </div>
+  </div>
+</body>
+</html>
